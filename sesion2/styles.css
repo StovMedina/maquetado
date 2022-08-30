@@ -1,0 +1,45 @@
+table {
+    /* Aqui dentro voy a escribir REGLAS CSS */
+    border: 1px solid indigo;
+}  
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+
+/* con el . se busca la clase */
+
+.hi {
+    color: blueviolet;
+    font-family: Helvetica;
+    font-size: 2cm;
+}
+
+.HowAreU {
+    border: 5px solid blueviolet;
+    background-color: aqua;
+    color: brown;
+    font-size: 1rem;
+}
+
+/* con el # se busca el id */
+#este {
+    background-color: blueviolet;
+    width: 90px;
+    height: 180px;
+    border: 10px solid coral;
+}
+
+/* se le pone * para que todos los divs hijos se les aplique */
+.div__lord-of-the-rings--green >* {
+    background-color: hotpink;
+    width: 250px;
+   /* el vh es "view height" y tmb aplica en el vw "view width" son como porcentajes de lo que ocupara */
+    height: 100vh;
+    font-weight: bold;
+}
+
+
+
