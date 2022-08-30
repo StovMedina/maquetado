@@ -13,16 +13,30 @@ h1 {
 }
 .div__static--yellow {
     background-color: yellow;
+    position: static;
 }
 .div__relative--hotpink {
     background-color: hotpink;
+    position: relative;
+    top: 40px;
+    left: 40px;
 }
 .div__fixed--blue {
     background-color: blue;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+
 }
 .div__absolute--red {
     background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 40px;
 }
 .div__sticky--peru {
     background-color: peru;
+    position: sticky;
+    top: 20px;
+
 }
